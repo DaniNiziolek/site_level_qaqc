@@ -5,6 +5,7 @@
 DF <- read.csv("reach-level streams data.csv") # BigDF_og
 DF$Start_Date<-as.POSIXct(DF$Start_Date,format="%m/%d/%Y")
 
+
 Variables <- c("Nitrogen_tot","Phosphorus_tot","Sodium_diss","Potassium_diss","Calcium_diss","Magnesium_diss",
                "sulfate_diss","Chlorine_diss","Org_carbon_diss","Water_temp","Air_temp","Slope","Temp","SC","DO",
                "ORP","Turb","DOsat","TDS","pH","Ht","Dist","Ht_avg","Dist_avg","SedMean1","SedMed1","LSUB_DMM",
