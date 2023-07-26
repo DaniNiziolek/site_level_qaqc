@@ -28,12 +28,9 @@ Parameters to define:
 - Park: The four-letter park code, to be used for grouping 
 - Unit: the ID column, the site code that identifies where data were collected
 - Date: the date, in mm/dd/yyyy format 
-- Ten_Duplicate*: partial-site resample events, may be of only a single 
+- Ten_Duplicate: partial-site resample events, may be of only a single 
   parameter or several, noted in a binary 0/1 format
-- Site_Duplicate*: whole-site resample events noted in a binary 0/1 format
-* duplicate columns are used in resample rate and variance calculations, 
-  but are not necessary for missing values and outliers. 
-
+- Site_Duplicate: whole-site resample events noted in a binary 0/1 format
 
 
 Key to files in this collection:
